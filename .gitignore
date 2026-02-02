@@ -1,0 +1,39 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# env
+venv/
+.venv/
+.env
+backend/.env
+
+# local db
+*.db
+*.sqlite
+*.sqlite3
+
+# logs
+*.log
+
+# runtime files
+backend/model/runtime/
+backend/model/weights/cyclegan/**/test_opt.txt
+
+# node 
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# OS/editor junk
+.vscode/
+.idea/
+.DS_Store
+
+# model weights (tracked explicitly via Git LFS)
+# *.pt
+# *.pth
+

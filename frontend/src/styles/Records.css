@@ -1,0 +1,97 @@
+.records-page {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: transparent;
+  min-height: auto;
+}
+
+.records-topbar h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--text);
+}
+
+.records-sub {
+  margin: 4px 0 0;
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.records-table-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.72rem;
+}
+
+.records-table thead {
+  background: rgba(79, 70, 229, 0.06);
+}
+
+.records-table th,
+.records-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+  white-space: nowrap;
+}
+
+.records-table th {
+  font-weight: 600;
+  color: rgba(15, 23, 42, 0.72);
+  font-size: 0.68rem;
+}
+
+.records-table tbody tr:hover {
+  background: rgba(79, 70, 229, 0.04);
+}
+
+.empty-row {
+  text-align: center;
+  padding: 24px 12px;
+  color: rgba(15, 23, 42, 0.4);
+}
+
+.records-row {
+  cursor: pointer;
+}
+
+.records-row:hover {
+  background: rgba(79, 70, 229, 0.06);
+}
+
+.records-topbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.records-search {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.75rem;
+  color: var(--text);
+  outline: none;
+  min-width: 220px;
+}
+
+.records-search::placeholder {
+  color: var(--muted);
+}
+
+.records-search:focus {
+  border-color: rgba(79, 70, 229, 0.6);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.08);
+}

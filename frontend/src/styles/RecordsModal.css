@@ -1,0 +1,90 @@
+.records-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.35);
+  display: grid;
+  place-items: center;
+  z-index: 999;
+}
+
+.records-modal {
+  background: #fff;
+  width: 720px;
+  max-width: 94vw;
+  border-radius: 18px;
+  box-shadow: 0 30px 70px rgba(15, 23, 42, 0.2);
+  padding: 16px 18px 18px;
+}
+
+.records-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.records-modal-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #111827;
+}
+
+.records-modal-close-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.records-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.records-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  gap: 10px 16px;
+}
+
+.label {
+  font-size: 0.80rem;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 3px;
+}
+
+.val {
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: #1f2937;
+}
+
+.records-images {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.img-block {
+  flex: 1 1 260px;
+}
+
+.img-block img {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 1px solid #edf0ff;
+  background: #f8f7ff;
+}
+
+.img-placeholder {
+  background: #f2f4ff;
+  border: 1px dashed #cfd4ff;
+  border-radius: 12px;
+  height: 160px;
+  display: grid;
+  place-items: center;
+  font-size: 0.7rem;
+  color: #8a90b4;
+}

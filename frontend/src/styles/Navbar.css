@@ -1,0 +1,140 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.navbar-inner {
+  width: min(1180px, 96%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  color: #121826;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav-links a {
+  font-size: 14px;
+  color: #4b4f5d;
+  text-decoration: none;
+  transition: 0.15s ease;
+}
+
+.nav-links a:hover {
+  color: #2f327d;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.btn-outline {
+  border: 1.4px solid #5f5ce6;
+  background: transparent;
+  color: #5f5ce6;
+  padding: 6px 20px;
+  border-radius: 999px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-auth {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.dash-link {
+  font-size: 14px;
+  color: #3b3f87;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.avatar-wrapper {
+  position: relative;
+}
+
+.avatar-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.avatar-circle {
+  width: 34px;
+  height: 34px;
+  background: #5f5ce6;
+  color: #fff;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.avatar-menu {
+  position: absolute;
+  right: 0;
+  top: 44px;
+  background: #fff;
+  border: 1px solid rgba(12, 15, 56, 0.06);
+  border-radius: 14px;
+  min-width: 165px;
+  box-shadow: 0 12px 30px rgba(9, 12, 46, 0.08);
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.menu-header {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px 6px;
+  color: #121826;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  margin-bottom: 3px;
+}
+
+.menu-item {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #313548;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: rgba(95, 92, 230, 0.06);
+}
+
+.menu-item.logout {
+  color: #b42318;
+}
