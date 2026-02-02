@@ -96,18 +96,19 @@ To address differences in image quality, the system applies a BMI-aware inferenc
 Fetal-Abdominal-Circumference-Estimation-System/
 │
 ├── backend/
-│   ├── app/              # FastAPI application (auth, routes, database)
+│   ├── app/              # FastAPI application (authentication, routes, database)
 │   ├── model/            # Deep learning inference pipelines & architectures
 │   ├── requirements.txt
-│   └── .env              # Backend environment variables
+│   └── .env.example      # Example backend environment variables
 │
 ├── frontend/
 │   ├── src/              # React source code
 │   ├── public/
-│   ├── .env              # Frontend environment variables
+│   ├── .env.example      # Example frontend environment variables
 │   └── package.json
 │
 ├── .gitignore
+├── .gitattributes        # Git LFS configuration for large model files
 └── README.md
 ```
 
