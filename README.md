@@ -87,6 +87,8 @@ To address differences in image quality, the system applies a BMI-aware inferenc
               │ • VNet2D       │
               └────────────────┘
 ```
+The system uses **SQLite** as the database for storing user and prediction records, and **Cloudinary** for managing uploaded ultrasound images and generated segmentation outputs.  
+For consistency with the provided implementation and configuration, it is recommended to use the same database and storage services.
 
 ---
 
@@ -160,6 +162,7 @@ Ensure the following software is installed:
 * Node.js 16+
 * npm
 * Git
+* Git LFS (required if using LFS-tracked model weights)
 
 ---
 
