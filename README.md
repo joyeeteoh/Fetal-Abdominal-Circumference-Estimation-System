@@ -110,7 +110,7 @@ Fetal-Abdominal-Circumference-Estimation-System/
 │   └── package.json
 │
 ├── .gitignore
-├── .gitattributes        # Git LFS configuration for large model files
+├── .gitattributes        
 └── README.md
 ```
 
