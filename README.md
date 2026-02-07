@@ -2,7 +2,7 @@
 
 An automated deep learning–based web system for estimating fetal abdominal circumference (AC) from ultrasound images.
 
-FetoVision integrates deep learning image translation and medical image segmentation within a full-stack web application, enabling automated fetal biometry analysis for research and academic purposes.
+FetoVision integrates deep learning image translation and medical image segmentation within a full-stack web application to support automated fetal biometry analysis for academic purposes.
 
 To address differences in image quality, the system applies a BMI-aware inference approach that selects different deep learning pipelines based on maternal body composition.
 
